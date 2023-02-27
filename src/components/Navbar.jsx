@@ -1,4 +1,5 @@
 import './navbar.css'
+// var htmlContent = require('../Unify-v2.6.3/html/website/cryptostrains.io/index.html');
 
 const Navbar = () => {
   return (
