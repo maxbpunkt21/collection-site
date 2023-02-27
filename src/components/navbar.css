@@ -1,0 +1,33 @@
+.navbar{
+  margin-top: 60px;
+  margin-bottom: 140px;
+}
+
+.navbar-toggler{
+  background-color: #592bff;
+
+}
+
+.navbar-toggler-icon{
+
+}
+
+.nav-link{
+  color: #592bff;
+  width: 14rem;
+  margin-right: 1rem;
+  background-color: #1A1A1A;
+  border-radius: 10px;
+  font-weight: 600;
+  align-items: center;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+
+.navbar-nav, .navbar{
+  background-color: #080808;
+
+}

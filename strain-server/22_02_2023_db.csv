@@ -1,0 +1,417 @@
+id,name,body,background,category,category2,type,thc
+001,Super Lemon Haze,Green,Yellow,Haze,Fruits,Mostly Sativa,20
+002,Super Silver Haze,Silver,Black,Haze,Legendary,Mostly Sativa,21
+003,Maui Waui,Green,Pink,-,Legendary,Mostly Sativa,17
+004,Orange Bud,Orange,Orange,-,Fruits,Mostly Indica,19
+005,Gelato,Green ,Green,Gelato,Food / Sweets / Ice Cream,Hybrid,20
+006,Cherry Pie,Green ,Red,-,Food / Fruits / Sweets,Mostly Indica,19
+007,Grand Daddy Purple,Purple,Orange,Purple,OTHER,Mostly Indica,19
+008,White Widow,White,Purple,-,Legendary,Hybrid,21
+009,Acapulco Gold,Gold,Green,Gold,Legendary / Gold,Mostly Sativa,19
+010,Zkittlez,Multi-Color,Blue,Zkittlez,Food / Sweets / Rainbows,Mostly Indica,19
+011,Blue Dream,Blue,Blue,-,OTHER,Mostly Sativa,20
+012,Amnesia Haze,Green ,Orange,Haze,OTHER,Mostly Sativa,18
+013,Pineapple Express,Green ,Yellow,-,Food / Fruits,Mostly Indica,18
+014,Girl Scout Cookies,Green ,Pink,Cookies,Food / Sweets,Mostly Indica,26
+015,Alien OG,Green ,Green,OG,Space / Aliens,Hybrid,20
+016,Gorilla Glue,Green ,Blue / Green,Glue,Animals,Mostly Indica,25
+017,White Rhino,White,Green,-,Animals,Mostly Indica,20
+019,Banana Kush,Yellow,Blue,Kush,Food / Fruits,Mostly Indica,21
+020,ChemDog,Green ,Purple,-,Animals,Mostly Sativa,22
+021,Northern Lights,Multi-Color,White,-,Legendary,Mostly Sativa,16
+022,Mango Kush,Orange,Orange,Kush,Food / Fruits,Mostly Indica,18
+023,Blueberry Muffin,Green ,Pink,-,Food / Fruits / Sweets,Mostly Indica,18
+024,Jack Herer,Green,Green,-,Legendary,Hybrid,17
+025,Blue Moon Rock,Blue,Blue,-,Space,Mostly Indica,20
+026,Bubble Gum,Pink,Pink,-,Food / Sweets,Hybrid,17
+027,Purple Queen,Purple,Purple,Purple,OTHER,Hybrid,25
+028,Moby Dick,Green,Blue / Green,-,Animals / Fantasy,Mostly Sativa,18
+029,White Shark,White,Green,-,Animals,Mostly Indica,20
+031,Watermelon Kush,Red,Green,Kush,Food / Fruits,Mostly Indica,21
+032,Diablo,Green,Orange / Pink,-,Spooky,Mostly Sativa,20
+033,Cotton Candy Kush,White,Purple,Kush,Food / Sweets,Mostly Indica,20
+034,Cheese,Yellow,Blue,Cheese,Food / Cheese,Mostly Indica,16
+035,THC Bomb,Green,Green,-,OTHER,Hybrid,20
+036,Purple Elephant,Purple,Purple,Purple,Animals,Mostly Indica,17
+037,Cactus,Green,Yellow,-,Plants,Mostly Sativa,21
+038,Strawberry Kush,Red,Purple,Kush,Food / Fruits,Mostly Sativa,20
+040,Shark Attack,Green,Blue,-,Animals,Mostly Indica,16
+041,ICE,Green,Blue,-,OTHER,Hybrid,20
+042,Chocolope,Brown,Purple,-,Food / Sweets,Mostly Sativa,17
+043,Jet Fuel,Green,Blue,-,OTHER,Mostly Sativa,20
+044,Royal Gorilla,Green,Green,-,Animals,Mostly Indica,21
+046,Saturn OG,Green,Blue,OG,Space,Hybrid,20
+047,Gummy Bears,Green,Red / Orange,-,Food / Sweets / Animals,Hybrid,20
+048,Nukeheads,Green,Green,-,OTHER,,23
+049,Blue Wolf,Blue,Blue,-,Animals,,11
+052,Cocoa Kush,Brown,Brown,Kush,Food / Sweets,Hybrid,21
+054,Apple Kush,Red,Purple,Kush,Food / Fruits,Mostly Indica,20
+055,Space Queen,Green,Purple / Pink,-,Space,Hybrid,14
+056,Golden Tiger,Gold,Blue / Green,Gold,Animals / Gold,Mostly Sativa,18
+058,Yeti OG,White,Blue,OG,Fantasy / Spooky,Mostly Indica,20
+060,Popcorn Kush,White,Pink,Kush,Food / Sweets,Mostly Indica,21
+061,Sour Diesel,Green,Green,Diesel,Food / Fruits,Mostly Sativa,18
+065,Grape Ape,Green,Pink,-,Food / Fruits / Animals,Mostly Indica,17
+066,Golden Goat,Gold,Blue,Gold,Animals / Gold,Mostly Sativa,20
+067,White Russian,White,Blue,-,OTHER,Hybrid,18
+068,Blueberry,Blue,Green,-,Food / Fruits,Mostly Indica,21
+069,Lemon Kush,Yellow,Green,Kush,Food / Fruits,Hybrid,20
+070,Strawberry Cough,Red,Purple / Pink,-,Food / Fruits,Mostly Sativa,17
+071,Original Glue aka GG4,Green,Blue,Glue,OTHER,Mostly Indica,25
+073,Green Crack,Green,Green,-,OTHER,Mostly Sativa,17
+074,Lemon Bubble,Yellow / Green,Green,-,Food / Fruits,Mostly Sativa,19
+075,Ghost OG,Green,Grey,OG,Fantasy / Spooky,Mostly Indica,21
+076,Firefly OG,Green,Green,OG,Animals,Hybrid,25
+077,Strawberry Banana,Yellow / Red,Pink,-,Food / Fruits,Mostly Indica,21
+078,Monster Cookies,Green,Green,Cookies,Food / Sweets / Fantasy / Spooky,Mostly Indica,20
+079,Cherry Kush,Red,Red,Kush,Food / Fruits,Mostly Indica,20
+080,Magic Melon,Green,Pink,-,Food / Fruits,Mostly Sativa,21
+081,Brain Candy,Pink,Purple / Pink,-,Food / Sweets,Hybrid,21
+082,Panda OG,White / Black,Green,OG,Animals,Hybrid,22
+083,Armageddon,Green,Green,-,Space,Mostly Sativa,17
+084,Zombie Kush,Green,Green,Kush,Fantasy / Spooky,Mostly Indica,20
+085,Blowfish,Green,Blue / Green,-,Animals,Mostly Indica,20
+086,Black Mamba,Green,Green,-,Animals,Mostly Indica,20
+087,Green Ninja,Green,Green,-,OTHER,Mostly Indica,22
+088,Vanilla Kush,Yellow,Purple,Kush,Food / Sweets / Plants,Mostly Indica,18
+090,Timewreck,Blue,Blue,-,OTHER,Mostly Sativa,20
+091,Double Dream,Green,Green,-,OTHER,Mostly Sativa,18
+092,Lemon Skunk,Green,Green,Skunk,Food / Fruits / Animals,Mostly Sativa,20
+093,Golden Pineapple,Gold,Purple,Gold,Food / Fruits / Gold,Hybrid,20
+094,Strawberry Alien Kush,Red,Purple / Pink,Kush,Food / Fruits / Alien / Space,Mostly Indica,12
+095,LSD,Multi-Color,Blue,-,Trippy,Hybrid,22
+096,Sherbert,Green,Blue / Green,Gelato,Food / Sweets / Ice Cream,Mostly Indica,18
+097,Alien Dawg,Green,Blue,-,Animals / Aliens / Space,Mostly Indica,20
+098,Big Mac,Multi-Color,Pink / Orange,-,Food,Mostly Indica,17
+099,Harlequin,Green,Pink,-,OTHER,Mostly Sativa,9
+100,Kiwi Skunk,Brown,Green,Skunk,Food / Fruits / Animals,Hybrid,15
+101,Blue Banana,Blue,Blue,-,Food / Fruits,Mostly Sativa,21
+102,Kandy Kush,Multi-Color,Multi-Color,Kush,Food / Sweets,Mostly Indica,20
+103,Cherry Dawg,Red,Pink,-,Food / Fruits / Animals,Mostly Sativa,21
+104,Lemon Tree,Green,Pink,-,Food / Fruits / Plants,Hybrid,20
+105,Purple Moss,Purple,Purple,Purple,Plants,Mostly Indica,13
+106,Apricot Jelly,Orange,Purple / Pink,-,Food / Fruits / Sweets,Mostly Sativa,29
+107,Honey Bananas,Yellow,Orange,-,Food / Sweets,Hybrid,21
+108,Trainwreck,Green,Green,-,OTHER,Mostly Sativa,20
+109,Blue Cheese,White,Green,Cheese,Food / Cheese,Mostly Indica,20
+110,Martian Muffins,Green,Orange,-,Aliens / Space / Food / Sweets,Mostly Indica,25
+111,Wedding Gelato,Green,Pink,Gelato,Food / Sweets / Ice Cream,Mostly Indica,23
+112,Black Tuna,Black,Green,-,Animals,Hybrid,19
+113,Mandarin Zkittlez,Multi-Color,Purple,Zkittlez,Food / Fruits / Sweets,Mostly Indica,20
+114,Banana Milk,Yellow / White,Blue,-,Food / Fruits,Mostly Indica,19
+115,French Bread,Green,Green,-,Food,Mostly Indica,20
+116,Strawberry Mango Haze,Red / Orange,Purple / Pink,Haze,Food / Fruits,Mostly Sativa,22
+117,Lime Killer OG,Green / Yellow,Green,OG,Food / Fruits,Mostly Sativa,20
+118,Milky Way,Black,Blue,-,Space,Mostly Indica,21
+119,Glass Apple,Green,Blue / Green,-,Food / Fruits,Mostly Sativa,22
+121,Diamond OG,Blue,Green,OG,Gemstones,Hybrid,18
+122,Melon Gum,Orange,Pink / Orange,-,Food / Fruits / Sweets,Mostly Indica,21
+123,Ghost Cookies,White,Green,Cookies,Food / Sweets / Fantasy / Spooky,Mostly Indica,20
+125,Blue Mammoth,Blue,Blue,-,Animals,Mostly Indica,14
+127,Lemon Garlic,Green / White,Green / Yellow,-,Food / Fruits,Mostly Indica,19
+128,Banana Bread,Yellow,Purple,-,Food / Fruits,Hybrid,21
+129,Pickle Bud,Green,Green,-,Food,Hybrid,20
+131,Purple Unicorn,Multi-Color,Pink,Purple,Fantasy / Rainbows,Hybrid,21
+132,Lemon Tangie,Yellow / Orange,Green,-,Food / Fruits,Mostly Sativa,19
+133,Sputnik,Silver,Black,-,Space / Spooky,Mostly Sativa,19
+134,Mint Chocolate Chip,Green / Brown,Blue / Green,Chocolate,Food / Sweets,Hybrid,20
+135,Black Cherry Soda,Red,Pink,-,Food / Fruits / Sweets,Mostly Sativa,20
+137,Baby Boom,Green,Blue / Green,-,OTHER,Hybrid,19
+138,Purple Cheese,Purple / Yellow,Green,Cheese,Food / Cheese,Hybrid,20
+139,ICED Grapefruit,Orange,Blue,-,Food / Fruits,Mostly Sativa,22
+140,Watermelon Zkittlez,Multi-Color,Blue / Green,Zkittlez,Food / Fruits / Sweets / Rainbows,Mostly Indica,25
+141,Lemon Bananas,Yellow,Orange,-,Food / Fruits,Hybrid,25
+142,Sasquatch,Green,Green,-,Fantasy / Spooky,Hybrid,30
+143,Blackberry Kush,Purple,Green,Kush,Food / Fruits,Mostly Indica,16
+144,Blueberry Pancakes,Yellow / Blue,Purple,-,Food / Fruits / Sweets,Mostly Indica,20
+145,Alien Sour Apple,Green,Green,-,Food / Fruits / Aliens / Space,Hybrid,26
+146,Strawberry Lemonade,Red / Yellow,Blue,-,Food / Fruits / Sweets,Hybrid,21
+147,Chocolate Fondue,Brown,Green,Chocolate,Food / Sweets,Mostly Sativa,20
+148,Purple Martian Kush,Purple,Orange,Purple / Kush,Aliens / Space,Mostly Indica,20
+149,Blackberry Rhino,Purple,Pink,-,Food / Fruits / Animals,Hybrid,16
+150,Einstein’s Pipe,Green / Grey,Green,-,OTHER,Mostly Indica,26
+152,Dark Side of the Moon,Black,Black,-,Space,Mostly Indica,20
+153,Pink Mango,Pink / Orange,Pink,-,Food / Fruits,Mostly Sativa,17
+154,Vanilla Gorilla,Yellow,Green,-,Food / Sweets / Animals / Plants,Mostly Indica,25
+155,Blackberry Lime Haze,Purple / Green,Purple,Haze,Food / Fruits,Mostly Sativa,22
+156,Truffle Butter,Yellow / Brown,Green,-,Food,Mostly Indica,20
+158,Fire OG,Orange,Purple,OG,OTHER,Mostly Indica,20
+160,Acid I,Multi-Color,Blue / Green,-,Trippy,Mostly Indica,16
+162,Citral Glue,Yellow,Green,Glue,Food / Fruits,Mostly Indica,21
+163,Purple Dragon,Multi-Color,Pink,Purple,Fantasy,Hybrid,21
+164,Mango Sapphire,Blue / Yellow,Purple,-,Food / Fruits / Gemstones,Mostly Indica,21
+165,Tangerine Dream,Orange,Green,-,Food / Fruits,Hybrid,25
+166,Alien Technology,Green,Black,-,Aliens / Space,Mostly Indica,16
+167,Fat Banana,Yellow,Green,-,Food / Fruits,Mostly Indica,26
+168,Jurassic Haze,Green,Green,Haze,Animals,Mostly Sativa,22
+169,Kryptonite,Green,Black,-,Fantasy / Gemstones,Mostly Indica,24
+170,Blueberry Cheesecake,Blue / Yellow,Purple,Cheese,Food / Fruits / Sweets / Cheese,Mostly Sativa,22
+171,Coconut OG,Brown,Green,OG,Food / Fruits,Mostly Indica,23
+172,Alien Apple Warp,Blue / Green,Black,-,Food / Fruits / Aliens / Space,Mostly Indica,26
+173,Pineapple Cheese,Brown / Brown,Green,Cheese,Food / Fruits / Cheese,Mostly Indica,22
+174,Banana Mango,Orange / Yellow,Purple,-,Food / Fruits,Mostly Sativa,21
+176,Strawberry Marshmallow,White / Red,Pink,-,Food / Fruits / Sweets,Hybrid,24
+177,Infinity Bud,Green,Green,-,OTHER,Hybrid,21
+178,Octopussy,Green,Green,-,Animals,Hybrid,19
+179,Space Lemon,Yellow,Black,-,Food / Fruits / Space,Hybrid,21
+180,Rainbow Truffle,Multi-Color,Purple,-,Food / Trippy / Rainbows,Mostly Indica,26
+181,Light Speed,Green,Black,-,Space / Neon,Mostly Indica,29
+182,Peanut Butter Bears,Brown / Orange,Orange / Yellow,-,Food / Sweets / Animals,Mostly Indica,26
+183,Biohazard,Green,Green,-,Neon,Hybrid,22
+184,Neon Super Skunk,Green,Black,Skunk,Animals / Neon,Mostly Indica,20
+185,Unicorn Bacon,Multi-Color,Pink / Orange,-,Food / Fantasy,Mostly Sativa,26
+186,Supernova,Green,Black,-,Space / Neon,Mostly Indica,25
+187,Rocket Banana,Yellow,Black,-,Food / Fruits / Space,Mostly Indica,26
+188,Cosmic Brain,Green,Black,-,Space / Neon,Mostly Indica,11
+189,Area 51,Green,Orange / Yellow,-,Aliens / Space,Mostly Sativa,17
+190,Acid II,Multi-Color,Multi-Color,-,Trippy,Mostly Indica,20
+191,Tiger Melon,Orange,Orange / Yellow,-,Food / Fruits / Animals,Hybrid,20
+192,Dead Banana,Yellow,Blue,-,Food / Fruits / Spooky,Hybrid,21
+195,Moon Walker Kush,Grey,Black,Kush,Space,Mostly Indica,22
+196,Rainbow Wreck,Multi-Color,Black,-,Trippy / Rainbows, ,29
+198,Gorilla Nut,Brown,Green,-,Food / Fruits / Animals,Mostly Indica,26
+200,Radioactive Kush,Green,Black,Kush,Neon,Mostly Indica,20
+201,Illusion OG,Green,Purple,OG,Fantasy,Mostly Indica,20
+202,Candy Chrome,Silver,Silver,-,Food / Fruits / Sweets,Mostly Sativa,21
+204,Haley’s Comet,Green,Black,-,Space / Neon,Mostly Sativa,10
+205,Alien Tits,Pink,Black,-,Aliens / Space,Mostly Sativa,21
+206,Vanilla Sky,Yellow,Yellow,-,Food / Sweets / Plants,Mostly Sativa,24
+207,Alien Abduction,Purple,Black,-,Aliens / Space,Mostly Indica,21
+208,Trippy Gorilla,Multi-Color,Purple / Pink,-,Trippy / Animals,Hybrid,27
+209,Cosmic Glue,Green,Black,Glue,Space / Neon,Mostly Indica,26
+210,Cosmic Collision,Green,Black,-,Space / Neon,Mostly Sativa,26
+211,Lemon Trip,Multi-Color,Black,-,Food / Fruits / Trippy,Mostly Sativa,26
+212,Lochness,Green,Blue / Green,-,Fantasy / Spooky,Mostly Indica,22
+216,Time Traveller,Green,Yellow,-,OTHER,Hybrid,23
+217,Alien Cookies,Brown,Black,Cookies,Food / Sweets / Aliens / Space,Hybrid,22
+219,Banana Peel,Yellow,Purple,-,Food / Fruits,Hybrid,19
+220,Viking Kush,Green,Green,Kush,OTHER,Mostly Indica,25
+223,Lava Kush,Green,Black,Kush,Neon,Hybrid,17
+224,Poison Toad,Green,Green,-,Animals / Spooky,Mostly Sativa,26
+226,Alien Glue,Green,Black,Glue,Aliens / Space / Neon,Mostly Indica,21
+227,Alien Banner OG,Green,Black,OG,Aliens / Space / Spooky,Hybrid,21
+228,Alien Ice Cream,Brown,Black,-,Aliens / Space / Food / Sweets / Ice Cream,Mostly Indica,25
+229,Alien Gorilla,Yellow,Black,-,Aliens / Space / Animals,Hybrid,21
+230,Flamin’ Alien,Green,Black,-,Aliens / Space,Hybrid,26
+232,Alien Blackout,Green,Black,-,Aliens / Space,Mostly Indica,21
+233,Weasel Diesel Alien,Brown,Black,Diesel,Aliens / Space / Animals,Mostly Indica,25
+235,Love Triangle,Green,Pink,-,OTHER,Mostly Indica,22
+236,Pineapple Skunk,Brown,Green,Skunk,Food / Fruits / Animals,Mostly Indica,18
+237,Hellhound,Orange,Black,-,Fantasy / Spooky,Mostly Indica,23
+238,Hammer Shark,Green,Blue / Green,-,Animals,Mostly Indica,19
+239,Evil Banana,Yellow,Purple / Pink,-,Food / Fruits / Spooky,Mostly Sativa,21
+240,Acid Orange, Multi-Color,Black,-,Food / Fruits / Trippy,Hybrid,20
+241,Roswell’s Lemonade,Yellow,Yellow / Green,-,Food / Fruits / Aliens / Space,Hybrid,22
+243,Rainbow Glue, Multi-Color,Black,Glue,Rainbows,Mostly Indica,22
+244,Sweet Pink Banana,Pink,Purple,-,Food / Fruits,Hybrid,23
+245,Turtle Island,Green,Blue / Green,-,Animals,Hybrid,22
+247,Mozzarella,White,Green,-,Food,Mostly Indica,20
+248,Brain Gum,Green,Black,-,Food / Sweets / Neon,Mostly Indica,21
+250,Magic Eraser,Green,Blue / Green,-,Fantasy,Mostly Indica,27
+254,Nano Banano,Yellow,Multi-Color,-,Food / Fruits,Hybrid,19
+257,Kaleidos Dope,Green,Multi-Color,-,Trippy,Mostly Indica,22
+258,Crystal Skull,Blue,Blue,-,Gemstones / Fantasy / Spooky,Mostly Sativa,23
+260,Brains Escape,Green,Green,-,OTHER,Mostly Indica,12
+261,Peanutbutter Gelato,Brown,Yellow,Gelato,Food / Sweets / Ice Cream,Mostly Indica,22
+262,Alieno Formaggio,Yellow,Black,Cheese,Food / Aliens / Space / Cheese,Mostly Indica,21
+263,Acid III, Multi-Color,Black,-,Trippy,Hybrid,22
+267,Banana Joint,Grey,Blue / Green,-,Food / Fruits,Mostly Indica,21
+270,Citrus Rush,Yellow,Blue / Green,-,Food / Fruits,Hybrid,26
+271,Purple Pineapple Bomb,Grey / Purple,Green,Purple,Food / Fruits,Mostly Indica,21
+272,Emerald Haze,Green,Green,Haze,Gemstones,Mostly Sativa,20
+273,Banana Glue,Yellow,Purple,Glue,Food / Fruits,Mostly Indica,21
+274,Drippy Eye, Multi-Color,Purple,-,Trippy,Mostly Sativa,26
+276,Gorilla Zkittlez, Multi-Color,Blue,Zkittlez,Food / Sweets / Animals,Mostly Indica,21
+278,Plutonium,Green,Black,-,Neon,Hybrid,27
+279,Strawberry Glue,Red,Green,Glue,Food / Fruits,Mostly Indica,26
+282,Agent Banana,Yellow,Purple / Pink,-,Food / Fruits,Hybrid,21
+285,Blue Pill,Blue,Blue,-,OTHER,Mostly Indica,28
+286,Acid IV, Multi-Color,Black,-,Trippy,Hybrid,22
+287,Rainbow Kiss, Multi-Color,Purple,-,Rainbows,Hybrid,26
+288,24K Banana,Gold,Black,Gold,Food / Fruits / Gold,Mostly Sativa,22
+289,Molotov OG,Green,Green,OG,OTHER,Hybrid,22
+290,Rainbow Road, Multi-Color,Multi-Color,-,Trippy / Rainbows,Hybrid,21
+292,Strawberry Syrup,Red,Purple,-,Food / Fruits / Sweets,Hybrid,22
+293,Cats in Space,Green,Black,-,Animals / Space,Hybrid,25
+294,Watermelon Gelato,Red / Brown,Green,Gelato,Food / Fruits / Sweets / Ice Cream,Mostly Indica,26
+295,Ice Age,Blue,Blue,-,OTHER,Mostly Indica,27
+297,Alaskan Thunder F*ck,Grey,Blue,-,OTHER,Mostly Sativa,20
+298,AK-47,Grey / Brown,Purple,-,OTHER,Hybrid,21
+299,Biscotti,Green,Green,-,Food / Sweets,Mostly Indica,25
+301,NYC Sour Diesel,Grey,Green,Diesel,Food / Fruits,Hybrid,22
+302,Black Hole,Green,Multi-Color,-,Space,Hybrid,26
+303,Rainbow Banana, Multi-Color,Purple / Pink,-,Food / Fruits / Rainbows,Mostly Sativa,26
+304,Alien Orange Gum,Orange,Black,-,Food / Fruits / weets / Aliens / Space,Mostly Indica,16
+305,Chernobyl,Grey,Black,-,Neon,Mostly Sativa,18
+306,Purple Haze,Purple,Black,Purple / Haze,Legendary,Mostly Sativa,17
+307,Wedding Cake,Green,Pink / Orange,-,Food / Sweets,Hybrid,22
+308,Fruity Pebbles OG, Multi-Color,Blue,OG,Food / Sweets,Mostly Indica,18
+310,Face Off OG,White,Blue / Green,OG,Spooky,Mostly Indica,19
+311,Skunk N°1,Green,Purple,Skunk,Legendary / Animals,Mostly Sativa,16
+313,Lost Pearl,Green,Green / Yellow,-,Gemstones,Mostly Indica,21
+314,Apple Fritter,Brown,Orange,-,Food / Fruits / Sweets,Hybrid,25
+315,Super Glue,Green,Pink,Glue,OTHER,Mostly Indica,20
+316,Papaya,Orange,Pink / Orange,-,Food / Fruits,Hybrid,26
+317,Sapphire OG,Blue,Green,OG,Gemstones,Hybrid,25
+318,Venom OG,Green,Red,OG,Fantasy / Spooky,Hybrid,26
+320,Ghost Train Haze,White,Green,Haze,Fantasy / Spooky,Mostly Sativa,27
+321,Power Plant,Grey,Black,-,Neon,Mostly Sativa,21
+322,Unicorn Poop, Multi-Color,Blue / Green,-,Fantasy,Hybrid,28
+323,Royal Cookies,Brown,Purple,Cookies,Food / Sweets,Hybrid,27
+324,Hell's OG,Orange,Black,OG,Spooky,Hybrid,26
+325,Brain Cake,Pink / Brown,Purple / Pink,-,Food / Sweets,Hybrid,24
+326,Triangle Kush,Green,Purple / Blue,Kush,OTHER,Mostly Indica,26
+327,Elixir CBD,Purple,Black,-,Fantasy / Neon,Mostly Sativa,5
+328,Lavender,Green,Purple,-,Plants,Mostly Indica,21
+329,Gorilla Cookies,Brown,Brown,Cookies,Food / Sweets / Animals,Mostly Indica,26
+330,Lemon Ice,Yellow / Brown,Blue / Green,-,Food / Fruits / Sweets / Ice Cream,Mostly Indica,25
+331,Apollo 11,Grey,Black,-,Space,Mostly Indica,24
+332,Jelly Breath,Green,Blue / Green,-,Food / Sweets,Hybrid,26
+333,Deadhead OG,White,Green,OG,Spooky,Hybrid,23
+334,Electric Jellyfish,Green,Black,-,Animals / Neon,Hybrid,26
+335,Cookie Glue,Brown,Purple,Glue,Food / Sweets,Mostly Indica,27
+336,Tangie,Orange,Purple / Pink,-,Food / Fruits,Mostly Sativa,23
+337,Mimosa,Purple,Green,-,Plants,Mostly Indica,26
+338,Crystal Coma,Green,Black,-,Gemstones / Neon,Mostly Indica,26
+339,Stracciatella,White / Brown,Brown,-,Food / Sweets / Ice Cream,Mostly Sativa,25
+340,Master Kush,Orange,Orange,Kush,Legendary,Mostly Indica,21
+341,Black Domina,Black,Purple,-,Legendary,Mostly Indica,21
+342,Flat Brainers,Pink,Pink,-,OTHER,Hybrid,25
+343,Diamond Dust OG, Multi-Color,Black,OG,Gemstones,Hybrid,23
+344,Ace of Spades,White,Black,-,OTHER,Hybrid,21
+345,Money Maker,Black,Green,-,OTHER,Mostly Indica,24
+346,Cereal Milk, Multi-Color,Blue,-,Food / Sweets,Hybrid,25
+347,Galactic Glue,Green,Black,Glue,Space / Neon,Hybrid,21
+348,Chocoholic,Brown,Pink / Orange,-,Food / Sweets,Hybrid,19
+349, Agent Orange,Orange,Purple / Pink,-,Food / Fruits,Hybrid,21
+350,GMO Cookies,Brown,Purple,Cookies,Food / Sweets,Hybrid,24
+351,Critical Mass,Orange,Purple,-,Legendary,Hybrid,21
+352,Northern Wreck, Multi-Color,White,-,OTHER,Hybrid,21
+353,Crystal Rain,Green,Black,-,Gemstones / Neon,Mostly Indica,22
+354,Monster Glue,Green,Blue / Green,Glue,Spooky,Mostly Indica,26
+355,Acid Dough, Multi-Color,Green,-,Food / Sweets / Trippy,Mostly Sativa,24
+356,Moon Cookies,Brown,Black,Cookies,Food / Sweets / Space,Mostly Indica,26
+357,Afghan Kush,White / Black,Blue / Green,Kush,Legendary,Mostly Indica,18
+358,Durban Poison,Orange / Yellow,Green,-,Legendary,Mostly Sativa,19
+359,Rocket Fuel,Green,Black,-,Space / Neon,Hybrid,22
+360,Thai Stick,Green,Green,-,Legendary,Mostly Sativa,12
+361,Passion Fruit,Red / Orange / Yellow,Green,-,Food / Fruits,Hybrid,20
+362,24K Gold,Gold,Purple,Gold,Gold,Hybrid,23
+363,Rainbow Mints, Multi-Color,Blue / Green,-,Food / Sweets / Rainbows,Mostly Indica,24
+364,Pineapple Poison,Green,Orange,-,Food / Fruits / Spooky,Hybrid,20
+365,Monkey Bread,Green,Green,-,Food / Animals,Mostly Indica,24
+366,Phantom OG,Green,Purple,OG,Fantasy / Spooky,Hybrid,22
+367,Candyland, Multi-Color,Blue / Green,-,Food / Sweets,Mostly Sativa,22
+368,Master Skunk,Orange / Yellow,Green,Skunk,Animals,Mostly Indica,25
+369,Waffle Cone,Brown,Orange,-,Food / Sweets,Hybrid,22
+370,Chocolate Lava,Brown,Purple,Chocolate,Food / Sweets,Mostly Indica,27
+371,Pineapple Zkittlez, Multi-Color,Blue,Zkittlez,Food / Fruits / Sweets,Hybrid,24
+372,Mr.Nice,White,Green,-,Legendary,Mostly Indica,20
+373,Colombian Gold,Gold,Brown,Gold,Legendary / Gold,Mostly Sativa,18
+374,Cookie Dough,Yellow,Brown,Cookies,Food / Sweets,Hybrid,23
+375,Rainbow Kush, Multi-Color,Purple,Kush,Rainbows,Mostly Indica,21
+376,Holland's Hope,White / Yellow,Orange / Yellow,-,Legendary,Mostly Indica,19
+377,French Macaron,Green,Brown,-,Food / Sweets,Mostly Indica,22
+378,Bubblegun, Multi-Color,Blue / Green,-,OTHER,Hybrid,20
+379,Himalayan Gold,Gold,Green,Gold,Legendary / Gold,Mostly Indica,17
+380,UK Cheese,Orange,Red / Orange,Cheese,Food / Cheese,Mostly Indica,21
+381,Guava Jelly,Pink,Blue / Green,-,Food / Fruits / Sweets,Hybrid,23
+382,Lemon Fire OG,Yellow,Green,OG,Food / Fruits,Hybrid,23
+383,Skunkberry,Blue,Purple,Skunk,Food / Fruits / Animals,Mostly Indica,22
+384,Black Diamond,Black,Green,-,Gemstones,Mostly Indica,23
+385,Syrup OG,Pink,Pink,OG,Food / Sweets,Hybrid,19
+386,Lost Soul,White,Grey,-,Fantasy / Spooky,Mostly Indica,23
+387,Blob OG,Green,Green,OG,OTHER,Hybrid,20
+388,Panda Glue,White / Black,Green,Glue,Animals,,
+389,Unicorn Cookies, Multi-Color,Brown,Cookies,Food / Sweets / Fantasy / Rainbows,Hybrid,26
+390,Pine Tar Kush,Black,Green,Kush,Plants,Mostly Indica,24
+391,Alien Poison,Purple,Green,-,Aliens / Space / Spooky,Mostly Sativa,26
+392,Banana Pudding,Yellow,Orange,-,Food / Fruits / Sweets,Hybrid,22
+393,Blue Lemon Haze,Blue,Green,Haze,Food / Fruits,Mostly Sativa,21
+394,Quantum Kush,Green,Blue / Green,Kush,OTHER,Mostly Sativa,22
+395,Sour Apple Killer,Green,Green,-,Food / Fruits,Hybrid,27
+396,Cherry Burst,Red,Pink,-,Food / Fruits,Hybrid,21
+397,Gingerbread Cookies,Brown,Orange,Cookies,Food / Fruits / Sweets,Hybrid,24
+398,Stardawg,White,Black,-,Space / Animals,Hybrid,21
+399,Wizard Punch,Purple,Green,-,Fantasy,Hybrid,20
+400,TITS,Green,Green,-,OTHER,Mostly Sativa,26
+401,Pyramid OG,Yellow,Yellow,OG,OTHER,Hybrid,24
+402,Ice Cream Cake, Multi-Color,Orange,-,Food / Sweets / Ice Cream,Mostly Indica,25
+403,Hawaiian Trainwreck,Blue / Yellow,Blue / Green,-,OTHER,Mostly Sativa,23
+404,Jamaican Pearl,Red / Yellow / Green,Orange,-,Gemstones,Mostly Sativa,20
+405,Sour LSD, Multi-Color,Pink,-,Food / Fruits / Trippy,Hybrid,25
+406,Alien Pebbles, Multi-Color,Black,-,Food / Sweets / Aliens / Space,Hybrid,25
+407,Swiss Fragolina,Red,Pink,-,Food / Fruits,Mostly Sativa,19
+408,Ayahuasca Purple, Multi-Color,Green,-,Trippy,Mostly Indica,22
+409,420 Glue,Green,Purple,Glue,OTHER,Hybrid,26
+410,Bombsicle, Multi-Color,Purple,-,Food / Sweets / Ice Cream,Hybrid,22
+411,Sunset Gelato,Brown,Blue / Green,Gelato,Food / Sweets / Ice Cream,Hybrid,23
+412,Treasure Island,Yellow / Black,Green,-,OTHER,Hybrid,19
+413,Maui Dawg,Green,Green,-,Animals,Mostly Sativa,30
+414,Big Bazooka,Brown / Grey,Green,-,OTHER,Hybrid,26
+415,Strawberry Crack,Red,Purple / Pink,-,Food / Fruits,Mostly Sativa,25
+416,Big Foot Glue,Green,Green,Glue,Fantasy / Spooky,Mostly Sativa,25
+417,Aurora Haze, Multi-Color,Black,Haze,Space,Hybrid,20
+418,Banana Cheese,Yellow,Purple,Cheese,Food / Fruits / Cheese,???,???
+419,Colbalt Ice,Blue,Blue,-,Gemstones,???,???
+420,Space Ghost,Green,Black,-,Space / Fantasy / Spooky,Mostly Indica,20
+421,Rainbow Gelato, Multi-Color,Orange / Yellow,Gelato,Food / Sweets / Ice Cream / Rainbows,Mostly Indica,25
+422,Peanut Butter Breath,Brown,Purple / Orange,,Food / Sweets,Hybrid,21
+423,Rainbow Cookies, Multi-Color,Pink / Orange,Cookies,Food / Sweets / Rainbows,Mostly Indica,20
+424,Cherry Lime Haze,Red / Green,Blue / Green,Haze,Food / Fruits,Mostly Sativa,21
+425,Banana Cookies,Brown / Yellow,Pink / Orange,Cookies,Food / Fruits / Sweets,Mostly Indica,21
+426,Dark Plasma,Black,Green,-,OTHER,???,???
+427,Cookies & Cream,White / Brown,Green,Cookies,Food / Sweets,Hybrid,21
+428,French Toast,Brown / Orange,Yellow,-,Food,Hybrid,20
+429,Phantom Cookies,Brown,Brown,Cookies,Food / Sweets / Fantasy / Spooky,Mostly Sativa,22
+430,The Hog,Green,Green,-,Animals,Mostly Indica,20
+431,Cheese Quake,Yellow,Blue / Green,-,Food / Cheese,Mostly Sativa,20
+432,Girl Scout Yeti,White,Green,-,Fantasy / Spooky,???,???
+433,Melting Strawberries,Red,Purple / Pink,-,Food / Fruits,Hybrid,20
+434,Alien Rock Candy, Multi-Color,Black,-,Food / Sweets / Aliens / Space,Mostly Indica,25
+435,Gorilla Mango,Orange,Blue / Green,-,Food / Fruits / Animals,???,???
+436,Rainbow Cake, Multi-Color,Purple,-,Food / Sweets / Rainbows,Hybrid,25
+437,Dragon Fruit,Red / Yellow,Green,-,Food / Fruits / Fantasy,Mostly Sativa,21
+438,Unicorn Tears, Multi-Color,Pink,-,Fantasy,Hybrid,19
+439,Cherry Kiss,Red,Green,-,Food / Fruits,Hybrid,19
+440,The Toad,Green,Blue / Green,-,Animals,???,???
+441,Acid Diesel Hog, Multi-Color,Green,Diesel,Trippy / Animals,???,???
+442,Banana Candy, Multi-Color,Pink / Orange,-,Food / Fruits / Sweets,Mostly Indica,19
+443,Emerald Cookies,Brown,Green,Cookies,Food / Sweets / Gemstones,Hybrid,20
+444,Milk Bone,White,Green,-,Food / Spooky,???,???
+445,Aliens on Moonshine,Yellow,Black,-,Aliens / Space,Mostly Indica,20
+446,Bootylicious,Pink,Pink,-,OTHER,Hybrid,20
+447,Hell Monkey,Green,Green,-,Animals / Spooky,Mostly Indica,25
+448,Bloody Skunk,Red,Red,Skunk,Animals / Spooky,Hybrid,19
+449,GMO Zkittlez, Multi-Color,Pink / Orange,Zkittlez,Food / Sweets,Mostly Indica,25
+450,Khalifa Mints,Blue,Blue / Green,-,Food / Sweets,Hybrid,25
+451,Alcoholic Alligator,Green,Green,-,OTHER,Hybrid,25
+452,Dynamite Cookies,Brown,Green,Cookies,Food / Sweets,???,???
+453,Crystal Gelato,Brown,Blue / Green,Gelato,Food / Sweets / Gemstones / Ice Cream,Mostly Indica,19
+454,Coffee Kush,Brown,Purple,Kush,Food,Mostly Indica,22
+455,Phishhead Kush,Grey,Green,Kush,Animals / Spooky,Mostly Indica,20
+456,Double Rainbow, Multi-Color,Blue / Green,-,Rainbows,Mostly Indica,20
+457,Moon Train,Grey,Black,-,Space,Mostly Sativa,22
+458,Shark Widow,Green,Green / Grey,-,Animals,Mostly Indica,19
+459,Monolith,Grey,Green,-,Spooky,Mostly Indica,21
+460,Vanilla Bean,Brown / Yellow,Brown,-,Food / Sweets / Plants,???,???
+461,Cherry Zkittlez, Multi-Color,Purple / Pink,Zkittlez,Food / Fruits / Sweets,Hybrid,19
+462,Rainbow Crush, Multi-Color,Green,-,Rainbows,Hybrid,27
+463,Strawberry Moon,Red,Black,-,Food / Fruits / Space,Mostly Indica,22
+464,Fluidic Space, Multi-Color,Blue / Green,-,Space,Hybrid,19
+465,Candy Glue, Multi-Color,Purple / Pink,Glue,Food / Sweets,Mostly Sativa,24
+466,AK Choco Kush,Brown,Pink / Orange,Kush,Food / Sweets,Mostly Indica,21
+467,Rainbow Zkittlez, Multi-Color,Purple,Zkittlez,Food / Sweets / Rainbows,Hybrid,19
+468,Ancient Kush,Yellow,Yellow,Kush,Spooky,Mostly Indica,19
+469,Grizzly Kush,Green,Green,Kush,Animals,Hybrid,20
+470,Rainband,Green,Green / Blue,-,OTHER,Mostly Indica,30
+471,Space Cowboy,Grey / Blue,Black,-,Space,Hybrid,19
+472,Shiva Skunk,Orange / Gold,Purple,Skunk,Animals,Mostly Indica,19
+473,Diablo Wind,Green,Green,-,Spooky,Mostly Sativa,19
+474,Space Cake, Multi-Color,Black,-,Food / Sweets / Space,Hybrid,22
+475,Mint Titties,Blue,Green,-,Food / Sweets,Hybrid,23
+476,Pink Moon,Pink,Black,-,Space,Hybrid,25
+477,Rainbow Punch, Multi-Color,Purple,-,Rainbows,Hybrid,25
+478,Bomb Cyclone,Grey,Grey / Green,-,OTHER,Hybrid,25
+479,Super Skunk,Purple,Green,Skunk,Animals,,
+480,Apple Rock Candy,Pink,Purple,-,Food / Fruits / Sweets,,
