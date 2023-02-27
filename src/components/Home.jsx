@@ -15,7 +15,7 @@ import Navbar from "./Navbar";
 
 
 //const API_URL = "http://localhost:4000/cryptostrains";
-const API_URL = "https://papriko-db.herokuapp.com/";
+const API_URL = "https://papriko-db.herokuapp.com/cryptostrains/";
 
 
 const Home = () => {
