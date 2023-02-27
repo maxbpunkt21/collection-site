@@ -23,8 +23,9 @@ import BlueBud from "./assets/Categorys/Bud-Blue.svg";
 
 
 
+const API_URL = "https://papriko-db.herokuapp.com/cryptostrains/";
 
-const API_URL = "http://localhost:4000/cryptostrains";
+// const API_URL = "http://localhost:4000/cryptostrains";
 
 const StrainDetail = () => {
 
