@@ -69,7 +69,6 @@ const StrainDetail = () => {
 
         <div className='container'>
             <div className='row'>
-
                 <div className="details">
                     <div className='col-2 category_box'>
                         <div className='row text-center centered'>

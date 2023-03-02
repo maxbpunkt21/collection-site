@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Home from "./components/Home";
 import StrainDetail from "./components/StrainDetail";
+import Startseite from "./components/Startseite";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/:id" element={<StrainDetail />} />
+            <Route path="/Startseite" element={<Startseite />} />
           </Routes>
         </div>
       </div>
