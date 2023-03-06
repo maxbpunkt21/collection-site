@@ -11,6 +11,9 @@
 
 }
 
+
+
+
 body {
   font-family: var(--font-sofia);
 }
@@ -125,7 +128,8 @@ select{
   margin-right: 10px;
   font-size: 23px;
   font-weight: bold; 
-  letter-spacing: 0.08em
+  letter-spacing: 0.08em;
+  margin-bottom: 5px;
 }
 
 .color-c1{

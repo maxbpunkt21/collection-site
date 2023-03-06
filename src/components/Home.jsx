@@ -82,7 +82,7 @@ const Home = () => {
       { <Navbar /> }
       <div className="container d-flex align-items-center justify-content-center text-center">
         <div className="row">
-          <div className="col-12">
+          <div className="col-lg-12">
             <img class="nft_icon"src={NftIcon} alt="NFT Icon Logo"/>
           </div>
           <div className="col-12">
@@ -115,7 +115,7 @@ const Home = () => {
         <div className="dropdowns centered">
           {/* <DropdownT /> */}
           <select 
-          class="option color-c1"
+          class="option color-c1 "
           value={category} 
           onChange={e=> { setCategory(e.target.value); searchStrainsByCategory2(e.target.value); }}>
             <option disabled selected value="">CATEGORY</option>
@@ -144,7 +144,7 @@ const Home = () => {
           </select>
 
           <select 
-          class="option color-c2"
+          class="option color-c2 margin-top-dropdown"
           value={category2} 
           onChange={e=> { setCategory2(e.target.value); searchStrainsByCategory(e.target.value); }}>
             <option disabled selected value="">CATEGORY - 2</option>
