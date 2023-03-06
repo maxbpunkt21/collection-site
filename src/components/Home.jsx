@@ -24,6 +24,10 @@ const Home = () => {
   const [category, setCategory] = useState(); 
   const [category2, setCategory2] = useState(); 
   const [type, setType] = useState(); 
+  const [thc, setThc] = useState(); 
+
+
+
 
   const [body, setBody] = useState(); 
   const [background, setBackground] = useState(); 
@@ -219,7 +223,7 @@ const Home = () => {
           <select 
           class="option color-c5"
           value={type} 
-          onChange={e=> { setType(e.target.value); searchStrainsByThc(e.target.value); }}>
+          onChange={e=> { setThc(e.target.value); searchStrainsByThc(e.target.value); }}>
             <option disabled selected value="">TYPE</option>
             <option class="options">Low</option>     
             <option class="options">Medium</option>
