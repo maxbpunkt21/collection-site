@@ -215,9 +215,9 @@ const Home = () => {
           value={type} 
           onChange={e=> { setType(e.target.value); searchStrainsByType(e.target.value); }}>
             <option disabled selected value="">TYPE</option>
-            <option class="options">mostly sativa</option>        
-            <option class="options">mostly indica</option>
-            <option class="options">hybrid</option>
+            <option class="options">Mostly Sativa</option>        
+            <option class="options">Mostly Indica</option>
+            <option class="options">Hybrid</option>
           </select>
 
           <select 
@@ -230,9 +230,7 @@ const Home = () => {
             <option class="options">High</option>
             <option class="options">Very High</option>
             <option class="options">Super High</option>
-
           </select>
-          
         </div>
       </div>
 
