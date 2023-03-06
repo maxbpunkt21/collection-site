@@ -224,7 +224,7 @@ const Home = () => {
           class="option color-c5"
           value={type} 
           onChange={e=> { setThc(e.target.value); searchStrainsByThc(e.target.value); }}>
-            <option disabled selected value="">TYPE</option>
+            <option disabled selected value="">THC</option>
             <option class="options">Low</option>     
             <option class="options">Medium</option>
             <option class="options">High</option>

@@ -45,20 +45,25 @@ const StrainDetail = () => {
 
   return (
     <div class=""> 
-        <div className='container'>
+        <div className='container align-items-center text-center'>
             <div className='row'>
                 <div className='text-center'>
-                    <h4 class="g-letter-spacing-2 g-font-size-18 g-mb-10 str_number">#{id}</h4>
+                    {/* <h4 class="g-letter-spacing-2 g-font-size-18 g-mb-10 str_number">#{id}</h4> */}
                     <h2 className='title'>'{strain.name}'</h2>
                     <img class="short_trim"src={DashedPurpleTrim} alt="Trim Line"/>
                 </div>
             </div>
         </div>
-        <div className='container'>
-            <img src={require(`./img/0${id}.jpg`)} alt="a"></img> 
+
+        <div className='container-fluid align-items-center text-center'>
+            <div className="row">
+                <div className="col-12">
+                    <img className='img-fluid strain-image' src={require(`./img/0${id}.jpg`)} alt="a"></img> 
+                </div>
+            </div>
         </div>
 
-        <div className='container'>
+        <div className='container align-items-center text-center'>
             <div className='row text-center'>
                 <img class="category_icon"src={Main} alt="Category Icon"/>
                 {/* <img class="short_trim"src={DashedPurpleTrim} alt="Trim Line"/> */}
@@ -67,63 +72,49 @@ const StrainDetail = () => {
             </div>
         </div>
 
-        <div className='container'>
+        <div className='container align-items-center text-center'>
             <div className='row'>
                 <div className="details">
-                    <div className='col-2 category_box'>
-                        <div className='row text-center centered'>
-                            <img class="category_img"src={Category1} alt="Trim Line"/>
-                            <h4 className='category_text'>Category</h4>
-                            <img class="category_img"src={TitelTrim} alt="Trim Line"/>
-                            <h5 className='attribute'>{strain.category}</h5>
-                        </div>
+                    <div className='col-2 category_box text-center'>
+                        <img class="category_img"src={Category1} alt="Trim Line"/>
+                        <h4 className='category_text'>Category</h4>
+                        <img class="category_img"src={TitelTrim} alt="Trim Line"/>
+                        <h5 className='attribute'>{strain.category}</h5>
                     </div>
 
-                    <div className='col-2 category_box'>
-                        <div className='row text-center'>
-                            <img class="category_img"src={Category2} alt="Trim Line"/>
-                            <h4 className='category_text'>Category 2</h4>
-                            <img class="category_img"src={TitelTrim} alt="Trim Line"/>
-                            <h5 className='attribute'>{strain.category2}</h5>
-
-                        </div>
+                    <div className='col-2 category_box text-center'>
+                        <img class="category_img"src={Category2} alt="Trim Line"/>
+                        <h4 className='category_text'>Category 2</h4>
+                        <img class="category_img"src={TitelTrim} alt="Trim Line"/>
+                        <h5 className='attribute'>{strain.category2}</h5>
                     </div>
 
-                    <div className='col-2 category_box'>
-                        <div className='row text-center'>
-                            <img class="category_img"src={Type} alt="Trim Line"/>
-                            <h4 className='category_text'>Type</h4>
-                            <img class="category_img"src={TitelTrim} alt="Trim Line"/>
-                            <h5 className='attribute'>{strain.type}</h5>
-
-                        </div>
+                    <div className='col-2 category_box text-center'>
+                        <img class="category_img"src={Type} alt="Trim Line"/>
+                        <h4 className='category_text'>Type</h4>
+                        <img class="category_img"src={TitelTrim} alt="Trim Line"/>
+                        <h5 className='attribute'>{strain.type}</h5>
                     </div>
 
-                    <div className='col-2 category_box'>
-                        <div className='row text-center'>
-                            <img class="category_img"src={Potency} alt="Trim Line"/>
-                            <h4 className='category_text'>Potency</h4>
-                            <img class="category_img"src={TitelTrim} alt="Trim Line"/>
-                            <h5 className='attribute'>{strain.thc}%</h5>
-                        </div>
+                    <div className='col-2 category_box text-center'>
+                        <img class="category_img"src={Potency} alt="Trim Line"/>
+                        <h4 className='category_text'>Potency</h4>
+                        <img class="category_img"src={TitelTrim} alt="Trim Line"/>
+                        <h5 className='attribute'>{strain.thc}</h5>
                     </div>
 
-                    <div className='col-2 category_box'>
-                        <div className='row text-center'>
-                            <img class="category_img"src={Body} alt="Trim Line"/>
-                            <h4 className='category_text'>Body</h4>
-                            <img class="category_img"src={TitelTrim} alt="Trim Line"/>
-                            <h5 className='attribute'>{strain.body}</h5>
-                        </div>
+                    <div className='col-2 category_box text-center'>
+                        <img class="category_img"src={Body} alt="Trim Line"/>
+                        <h4 className='category_text'>Body</h4>
+                        <img class="category_img"src={TitelTrim} alt="Trim Line"/>
+                        <h5 className='attribute'>{strain.body}</h5>
                     </div>
 
-                    <div className='col-2 category_box'>
-                        <div className='row text-center'>
-                            <img class="category_img"src={Background} alt="Trim Line"/>
-                            <h4 className='category_text'>Background</h4>
-                            <img class="category_img"src={TitelTrim} alt="Trim Line"/>
-                            <h5 className='attribute'>{strain.background}</h5>
-                        </div>
+                    <div className='col-2 category_box text-center'>
+                        <img class="category_img"src={Background} alt="Trim Line"/>
+                        <h4 className='category_text'>Background</h4>
+                        <img class="category_img"src={TitelTrim} alt="Trim Line"/>
+                        <h5 className='attribute'>{strain.background}</h5>
                     </div>
                 </div>
             </div>
