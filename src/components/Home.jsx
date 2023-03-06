@@ -76,6 +76,12 @@ const Home = () => {
     setStrains(data); 
   };
 
+  const searchStrainsByThc = async (title) => {
+    const response = await fetch(`${API_URL}?thc=${title}`);
+    const data = await response.json();
+
+    setStrains(data); 
+  };
   return (
 
     <div className="app">
@@ -117,43 +123,15 @@ const Home = () => {
           <select 
           class="option color-c1 "
           value={category} 
-          onChange={e=> { setCategory(e.target.value); searchStrainsByCategory2(e.target.value); }}>
+          onChange={e=> { setCategory(e.target.value); searchStrainsByCategory(e.target.value); }}>
             <option disabled selected value="">CATEGORY</option>
-            <option class="options">Alien</option>
-            <option class="options">Animals</option>
-            <option class="options">Celebrity</option>
-            <option class="options">Cheese</option>
-            <option class="options">Chocolate</option>
-            <option class="options">Drug</option>
-            <option class="options">Famous</option>
-            <option class="options">Fantasy</option>
-            <option class="options">Food</option>
-            <option class="options">Fruit</option>
-            <option class="options">Ice</option>
-            <option class="options">Ice Cream</option>
-            <option class="options">Jewelry</option>
-            <option class="options">Legendary</option>
-            <option class="options">Neon</option>
-            <option class="options">OG</option>
-            <option class="options">Plant</option>
-            <option class="options">Sky</option>
-            <option class="options">Space</option>
-            <option class="options">Sweet</option>
-            <option class="options">Trippy</option>
-            <option class="options">Unicorn</option>
-          </select>
-
-          <select 
-          class="option color-c2 margin-top-dropdown"
-          value={category2} 
-          onChange={e=> { setCategory2(e.target.value); searchStrainsByCategory(e.target.value); }}>
-            <option disabled selected value="">CATEGORY - 2</option>
             <option class="options">Cheese</option>
             <option class="options">Chocolate</option>
             <option class="options">Cookies</option>
             <option class="options">Diesel</option>
             <option class="options">Gelato</option>
             <option class="options">Glue</option>
+            <option class="options">Gold</option>
             <option class="options">Haze</option>
             <option class="options">Kush</option>
             <option class="options">OG</option>
@@ -163,30 +141,49 @@ const Home = () => {
           </select>
 
           <select 
+          class="option color-c2 margin-top-dropdown"
+          value={category2} 
+          onChange={e=> { setCategory2(e.target.value); searchStrainsByCategory2(e.target.value); }}>
+            <option disabled selected value="">CATEGORY - 2</option>
+            <option class="options">Aliens</option>
+            <option class="options">Animals</option>
+            <option class="options">Cheese</option>
+            <option class="options">Fantasy</option>
+            <option class="options">Food</option>
+            <option class="options">Fruits</option>
+            <option class="options">Gemstones</option>
+            <option class="options">Gold</option>
+            <option class="options">Ice Cream</option>
+            <option class="options">Legendary</option>
+            <option class="options">Neon</option>
+            <option class="options">Plants</option>
+            <option class="options">Rainbows</option>
+            <option class="options">Space</option>
+            <option class="options">Spooky</option>
+            <option class="options">Sweets</option>
+            <option class="options">Trippy</option>
+            <option class="options">OTHER</option>
+          </select>
+
+          <select 
           class="option color-c3"
           value={body} 
           onChange={e=> { setBody(e.target.value); searchStrainsByBody(e.target.value); }}>
             <option disabled selected value="">BODY</option>
-            <option class="options">Black</option>        
-            <option class="options">Blue</option>
-            <option class="options">Brown</option>
-            <option class="options">Chocolate</option>
+            <option class="options">Multi-Color</option>        
             <option class="options">Gold</option>
-            <option class="options">Green</option>
-            <option class="options">Grey</option>
-            <option class="options">Khaki</option>
-            <option class="options">Multi Color</option>
-            <option class="options">Neon Green</option>
-            <option class="options">Orange</option>
-            <option class="options">Pink</option>
-            <option class="options">Purple</option>
-            <option class="options">Rainbow</option>
-            <option class="options">Red</option>
-            <option class="options">Ruby</option>
             <option class="options">Silver</option>
-            <option class="options">Vanilla</option>
+            <option class="options">Black</option>
+            <option class="options">Grey</option>
             <option class="options">White</option>
+            <option class="options">Blue</option>
+            <option class="options">Green</option>
             <option class="options">Yellow</option>
+            <option class="options">Orange</option>
+            <option class="options">Red</option>
+            <option class="options">Purple</option>
+            <option class="options">Pink</option>
+            <option class="options">Brown</option>
           </select>
 
 
@@ -195,23 +192,18 @@ const Home = () => {
           value={background} 
           onChange={e=> { setBackground(e.target.value); searchStrainsByBackground(e.target.value); }}>
             <option disabled selected value="">BACKGROUND</option>
-            <option class="options">Black</option>        
-            <option class="options">Blue</option>
-            <option class="options">Brown</option>
-            <option class="options">Dark Green</option>
-            <option class="options">Green</option>
-            <option class="options">Grey</option>
-            <option class="options">Orange</option>
-            <option class="options">Pink</option>
-            <option class="options">Purple</option>
-            <option class="options">Rainbow</option>
-            <option class="options">Red</option>
-            <option class="options">Ruby</option>
-            <option class="options">Sand</option>
+            <option class="options">Multi-Color</option>        
             <option class="options">Silver</option>
-            <option class="options">Vanilla</option>
+            <option class="options">Black</option>
             <option class="options">White</option>
+            <option class="options">Blue</option>
+            <option class="options">Green</option>
             <option class="options">Yellow</option>
+            <option class="options">Orange</option>
+            <option class="options">Red</option>
+            <option class="options">Purple</option>
+            <option class="options">Pink</option>
+            <option class="options">Brown</option>
           </select>
 
           <select 
@@ -222,6 +214,19 @@ const Home = () => {
             <option class="options">mostly sativa</option>        
             <option class="options">mostly indica</option>
             <option class="options">hybrid</option>
+          </select>
+
+          <select 
+          class="option color-c5"
+          value={type} 
+          onChange={e=> { setType(e.target.value); searchStrainsByThc(e.target.value); }}>
+            <option disabled selected value="">TYPE</option>
+            <option class="options">Low</option>     
+            <option class="options">Medium</option>
+            <option class="options">High</option>
+            <option class="options">Very High</option>
+            <option class="options">Super High</option>
+
           </select>
           
         </div>
