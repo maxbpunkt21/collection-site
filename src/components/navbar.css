@@ -12,6 +12,10 @@ margin-bottom: 2rem;
 
 }
 
+.greyed{
+  opacity: .4;
+}
+
 .nav-link{
   color: #592bff;
   width: 18rem;

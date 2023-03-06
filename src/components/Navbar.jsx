@@ -21,7 +21,7 @@ const Navbar = () => {
             <a class="nav-link text-center" href="https://cryptostrains.io/faq.html">FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-center" href="#">OPEN SEA</a>
+            <a class="nav-link text-center greyed" href="#">OPEN SEA</a>
           </li>
         </ul>
       </div>
