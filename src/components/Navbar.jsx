@@ -5,27 +5,25 @@ import './navbar.css'
 const Navbar = () => {
   return (
 
-    <nav class="center navbar navbar-expand-lg">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link text-center" href={'https://cryptostrains.io'} >ABOUT/INFO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-center" href="https://collection.cryptostrains.io">NFT-COLLECTION</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-center" href="https://cryptostrains.io/faq.html">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-center greyed" href="#">OPEN SEA</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <nav class="navbar navbar-expand-lg text-center justify-content-center align-items-center">
+
+    <div class="center text-center justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link text-center" href='https://cryptostrains.io' >ABOUT/INFO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center" href="https://collection.cryptostrains.io">NFT-COLLECTION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center" href="https://cryptostrains.io/faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center greyed" href="#">OPEN SEA</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   )
 }
