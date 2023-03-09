@@ -7,6 +7,8 @@ import "./App.css";
 import Home from "./components/Home";
 import StrainDetail from "./components/StrainDetail";
 import Startseite from "./components/Startseite";
+import Register from "./components/Register";
+
 
 const App = () => {
   return (
@@ -17,6 +19,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/:id" element={<StrainDetail />} />
             <Route path="/Startseite" element={<Startseite />} />
+            <Route path="/Register" element={<Register />} />
           </Routes>
         </div>
       </div>

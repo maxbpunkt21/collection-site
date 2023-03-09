@@ -24,9 +24,9 @@ import Footer from "./Footer";
 
 
 
-const API_URL = "https://papriko-db.herokuapp.com/cryptostrains/";
+// const API_URL = "https://papriko-db.herokuapp.com/cryptostrains/";
 
-// const API_URL = "http://localhost:4000/cryptostrains";
+const API_URL = "http://localhost:4000/cryptostrains";
 
 const StrainDetail = () => {
 
@@ -45,13 +45,13 @@ const StrainDetail = () => {
     }, []);    
 
   return (
-    <div class=""> 
+    <div className=""> 
         <div className='container align-items-center text-center'>
             <div className='row'>
                 <div className='text-center'>
                     {/* <h4 class="g-letter-spacing-2 g-font-size-18 g-mb-10 str_number">#{id}</h4> */}
                     <h2 className='title'>'{strain.name}'</h2>
-                    <img class="short_trim"src={DashedPurpleTrim} alt="Trim Line"/>
+                    <img className="short_trim"src={DashedPurpleTrim} alt="Trim Line"/>
                 </div>
             </div>
         </div>
@@ -66,10 +66,10 @@ const StrainDetail = () => {
 
         <div className='container align-items-center text-center'>
             <div className='row text-center'>
-                <img class="category_icon"src={Main} alt="Category Icon"/>
+                <img className="category_icon"src={Main} alt="Category Icon"/>
                 {/* <img class="short_trim"src={DashedPurpleTrim} alt="Trim Line"/> */}
                 <h2 className='categories_title'>ATTRIBUTES</h2>
-                <img class="category_icon"src={LongPurpleTrim} alt="Trim Line"/>
+                <img className="category_icon"src={LongPurpleTrim} alt="Trim Line"/>
             </div>
         </div>
 
@@ -77,44 +77,44 @@ const StrainDetail = () => {
             <div className='row'>
                 <div className="details">
                     <div className='col-2 category_box text-center'>
-                        <img class="category_img"src={Category1} alt="Trim Line"/>
+                        <img className="category_img"src={Category1} alt="Trim Line"/>
                         <h4 className='category_text'>Category</h4>
-                        <img class="category_img"src={TitelTrim} alt="Trim Line"/>
+                        <img className="category_img"src={TitelTrim} alt="Trim Line"/>
                         <h5 className='attribute'>{strain.category}</h5>
                     </div>
 
                     <div className='col-2 category_box text-center'>
-                        <img class="category_img"src={Category2} alt="Trim Line"/>
+                        <img className="category_img"src={Category2} alt="Trim Line"/>
                         <h4 className='category_text'>Category 2</h4>
-                        <img class="category_img"src={TitelTrim} alt="Trim Line"/>
+                        <img className="category_img"src={TitelTrim} alt="Trim Line"/>
                         <h5 className='attribute'>{strain.category2}</h5>
                     </div>
 
                     <div className='col-2 category_box text-center'>
-                        <img class="category_img"src={Type} alt="Trim Line"/>
+                        <img className="category_img"src={Type} alt="Trim Line"/>
                         <h4 className='category_text'>Type</h4>
-                        <img class="category_img"src={TitelTrim} alt="Trim Line"/>
+                        <img className="category_img"src={TitelTrim} alt="Trim Line"/>
                         <h5 className='attribute'>{strain.type}</h5>
                     </div>
 
                     <div className='col-2 category_box text-center'>
-                        <img class="category_img"src={Potency} alt="Trim Line"/>
+                        <img className="category_img"src={Potency} alt="Trim Line"/>
                         <h4 className='category_text'>Potency</h4>
-                        <img class="category_img"src={TitelTrim} alt="Trim Line"/>
+                        <img className="category_img"src={TitelTrim} alt="Trim Line"/>
                         <h5 className='attribute'>{strain.thc}</h5>
                     </div>
 
                     <div className='col-2 category_box text-center'>
-                        <img class="category_img"src={Body} alt="Trim Line"/>
+                        <img className="category_img"src={Body} alt="Trim Line"/>
                         <h4 className='category_text'>Body</h4>
-                        <img class="category_img"src={TitelTrim} alt="Trim Line"/>
+                        <img className="category_img"src={TitelTrim} alt="Trim Line"/>
                         <h5 className='attribute'>{strain.body}</h5>
                     </div>
 
                     <div className='col-2 category_box text-center'>
-                        <img class="category_img"src={Background} alt="Trim Line"/>
+                        <img className="category_img"src={Background} alt="Trim Line"/>
                         <h4 className='category_text'>Background</h4>
-                        <img class="category_img"src={TitelTrim} alt="Trim Line"/>
+                        <img className="category_img"src={TitelTrim} alt="Trim Line"/>
                         <h5 className='attribute'>{strain.background}</h5>
                     </div>
                 </div>
@@ -124,8 +124,8 @@ const StrainDetail = () => {
         <div className='container'>
             <div className='row'>
                 <div className='text-center'>
-                    <img class="blue_bud"src={BlueBud} alt="Trim Line"/><br></br>
-                    <img class="short_trim"src={DashedPurpleTrim} alt="Trim Line"/>
+                    <img className="blue_bud"src={BlueBud} alt="Trim Line"/><br></br>
+                    <img className="short_trim"src={DashedPurpleTrim} alt="Trim Line"/>
                 </div>
             </div>
         </div>
