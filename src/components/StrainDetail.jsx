@@ -129,6 +129,7 @@ const StrainDetail = () => {
                 </div>
             </div>
         </div>
+
         { <Footer /> }
 
     </div>
