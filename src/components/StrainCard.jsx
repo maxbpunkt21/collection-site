@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const StrainCard = ({ strain: {id, name} }) => {
-  const link = '/' + id;  
+  const link = '/strains/' + id;  
   return (
     <Link to={link}>
       <div className="movie" key={name}>
