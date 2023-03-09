@@ -14,6 +14,7 @@ import DashedPurpleTrim from "./assets/Categorys/Dashed_Purple-1.svg";
 import BlueBud from "./assets/Categorys/Bud-Blue.svg";
 
 
+import Footer from "./Footer";
 
 
 
@@ -128,7 +129,10 @@ const StrainDetail = () => {
                 </div>
             </div>
         </div>
+        { <Footer /> }
+
     </div>
+
   )
 }
 
