@@ -110,6 +110,14 @@ body {
   height:15em;
 }
 
+@media screen and (max-width: 600px) {
+  .nft_icon{
+    height:8em;
+  }
+}
+
+
+
 select{
   width: 250px;
   text-align-last:center;
@@ -486,7 +494,9 @@ textarea:focus, input:focus {
 
 @media screen and (max-width: 600px) {
   .app {
-    padding: 4rem 2rem;
+    padding-top: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .search {
@@ -506,8 +516,9 @@ textarea:focus, input:focus {
 
 @media screen and (max-width: 400px) {
   .app {
-    padding: 4rem 1rem;
-  }
+    padding-top: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;  }
 
   h1 {
     font-size: 2rem;

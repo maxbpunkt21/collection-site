@@ -122,7 +122,7 @@ const Home = () => {
             onClick={() => searchStrains(searchTerm)}
           />
         </div>
-        <div className="dropdowns centered">
+        <div className="dropdowns centered ml-3">
           {/* <DropdownT /> */}
           <select 
           class="option color-c1 "

@@ -1146,14 +1146,14 @@ if(isset($_POST['submit'])){
       </div>
 
       <div class="row">
-        <div class="text-right col-lg-6 col-md-6 g-mb-40 g-mb-0--lg mr-4 mr-md-0 g-pt-20">
+        <div class="text-right col-lg-6 col-md-6 g-mb-40 g-mb-0--lg mr-5 mr-md-0 g-pt-20">
           <a class="col-sm-12 g-mb-20 footer-img">
             <img class="footer-img align-items-center" src="assets-site/graphic/Logomark/Logo_CryptoStrains.svg" alt="Logo">
           </a>
         </div>
         <div class="text-left col-lg-6 col-md-6 g-mb-40 g-mb-0--lg g-pl-20">
           <a class="col-sm-12 g-mb-20 footer-img">
-            <img class="footer-img d-none d-lg-inline d-xl-inline" src="assets-site/graphic/Logomark/logo_pap.svg" alt="Logo">
+            <img class="pap-img footer-img d-none d-lg-inline d-xl-inline" src="assets-site/graphic/Logomark/logo_pap.svg" alt="Logo">
           </a>
         </div>
       </div>
@@ -1165,7 +1165,7 @@ if(isset($_POST['submit'])){
       <div class="row">
         <div class="text-center col-md-12 g-mb-15 g-mb-0--md">
           <div class="">
-            <p class="copyright d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">Copyright © 2022 Papriko Ink. All Rights Reserved.</p>     
+            <p class="copyright d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">Copyright © 2023 Papriko Ink. All Rights Reserved.</p>     
           </div>
         </div>
       </div>
