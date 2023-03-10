@@ -101,6 +101,14 @@ body {
   letter-spacing: 0.15rem;
 }
 
+@media screen and (max-width: 600px) {
+  .nft_collection{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+  }
+}
+
 .trim_line_green_long{
   width: 350px;
   height: 15px;
