@@ -1,3 +1,24 @@
+<?php 
+if(isset($_POST['submit'])){
+    $to = "registration@cryptostrains.io"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $agreed = $_POST['agreed']; 
+    $subject = "Raffle Registration" . " " . $from;
+    $subject2 = "CryptoStrain Raffle Registered";
+    $message = $first_name . " " . $last_name . "has registered for the Spannabis Raffle with email" . $from . "\n\n" . "agreed?" . $agreed;
+    $message2 = "Hello" . " " . $first_name . "\n \n" . "You have sucessfully registered for the exclusive 2023 CryptoStrains Raffle." . $_POST['message'] . "\n \n" . "Good Luck";
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Thank you!  " . $first_name . ", you sucessfully registered for the raffle!!";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -44,16 +65,16 @@
         <div class="center text-center justify-content-center" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link text-center" href='https://cryptostrains.io' >ABOUT/INFO</a>
+              <a class="givaway-text nav-link text-center" href='https://cryptostrains.io' >ABOUT/INFO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-center" href="https://collection.cryptostrains.io">NFT-COLLECTION</a>
+              <a class="givaway-text nav-link text-center" href="https://collection.cryptostrains.io">NFT-COLLECTION</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-center" href="https://cryptostrains.io/faq.html">FAQ</a>
+              <a class="givaway-text nav-link text-center" href="https://cryptostrains.io/faq.html">FAQ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-center greyed" href="#">OPEN SEA</a>
+              <a class="givaway-text nav-link text-center greyed" href="#">OPEN SEA</a>
             </li>
           </ul>
         </div>
@@ -83,6 +104,8 @@
           <img class="trim_line" src="assets-site\graphic\Logomark\Trim-Line.svg" alt="TRIM LINE">
         </div>
       </div>
+
+
       
       <!-- LOGOMARK -->
       <section class="g-theme-bg-gray-light-v1 g-mb-10">
@@ -106,7 +129,29 @@
         </div>
       </section>	  
 
-      <div class="container">
+      <div class="text-center">
+        <h1 class="givaway-text text-center mt-50 mb-10">Exclusive NFT Giveway</h1>
+        <p class="givaway-text">Enter your name and email address and have the chance to win 1 of 420 CryptoStrain NFTs</p>
+          <div className="form-row">
+          <form action="" method="post">
+
+            <div class="form-group col-12">
+              <h3 class="givaway-text">First Name:</h3> <input type="text" name="first_name"><br>
+            </div>
+            <div class="form-group col-12">
+              <h3 class="givaway-text"> Name:</h3> <input type="text" name="last_name"><br>
+            </div>
+            <div class="form-group col-12">
+              <h3 class="givaway-text">Email:</h3> <input class="required" type="email" name="email"><br>
+            </div>
+            <input class="required" type="checkbox" id="vehicle3" name="agreed" value="yes">
+              <label class="givaway-text" for="vehicle3"> I agree to the terms & services</label><br>
+          </div>
+          <input class="givaway-btn btn btn-submit mt-3" type="submit" name="submit" value="Submit">
+        </form>
+      </div>
+
+      <div class="container mt-50">
         <div class="row">
           <div class="col-sm-12 text-center">
             <img class="thunder_l" src="assets-site\graphic\Intro\Thunder-L.svg" alt="Papriko Logo">
@@ -115,8 +160,10 @@
           </div>
       </div>
 
+
+
       <div class="row text-center justify-content-center">
-        <div class="col-md-12 g-mb-10 g-mb-10 g-mt-10">
+        <div class="col-md-12 g-mb-10 g-mb-10 g-mt-10 g-mt-30">
           <h1 class="text-uppercase u-heading-v2__title g-line-height-1 g-letter-spacing-2 g-font-size-30 g-font-size-40--md mb-0"><strong>420</strong> <br>hand-drawn <br>cannabis strains</h1><br>
           <img class="trim_line g-mb-20" src="assets-site\graphic\Logomark\Trim-Line.svg" alt="Papriko Logo">
           <p class="h3 g-letter-spacing-2 g-font-size-20 g-font-weight-400 g-color-primary g-mb-25"><bold>Every CryptoStrain is a unique 1/1 individually hand-drawn artwork. </bold><br>
@@ -1049,6 +1096,8 @@
 
 
     </div>
+
+
   <!-- Footer -->
   <div class="g-bg-black-opacity-0_9 g-color-white-opacity-0_8 g-py-60">
     <div class="container">
@@ -1078,7 +1127,7 @@
         <div class="row text-center justify-content-center">
           <h3 class="socials-h3">Socials</h3>
         </div>
-        <div class="row text-center justify-content-center align-items-center">
+        <div class="row text-center justify-content-center align-items-center mr-0 mr-md-4">
           <div class="text-center social_footer">
             <img class="arrow_green" src="assets-site\graphic\Logomark\Arrow-Down_Green.svg" alt="Arrow Down Green"><br>
             <a href="https://www.instagram.com/cryptostrains.io/" class="footer-socials text-uppercase g-letter-spacing-2 text-center">Instagram</a>
@@ -1097,20 +1146,19 @@
       </div>
 
       <div class="row">
-        <div class="text-right col-lg-6 col-md-6 g-mb-40 g-mb-0--lg g-pr-20 g-pt-20">
+        <div class="text-right col-lg-6 col-md-6 g-mb-40 g-mb-0--lg mr-4 mr-md-0 g-pt-20">
           <a class="col-sm-12 g-mb-20 footer-img">
             <img class="footer-img align-items-center" src="assets-site/graphic/Logomark/Logo_CryptoStrains.svg" alt="Logo">
           </a>
         </div>
         <div class="text-left col-lg-6 col-md-6 g-mb-40 g-mb-0--lg g-pl-20">
           <a class="col-sm-12 g-mb-20 footer-img">
-            <img class="footer-img d-none d-lg-inline d-xl-inline" src="assets-site/img-temp/1600x1060/Logo_mini.png" alt="Logo">
+            <img class="footer-img d-none d-lg-inline d-xl-inline" src="assets-site/graphic/Logomark/logo_pap.svg" alt="Logo">
           </a>
         </div>
       </div>
     </div>
   </div>
-  <!--End Footer -->
 
   <footer class="g-bg-gray-dark-v1 g-py-20">
     <div class="container">

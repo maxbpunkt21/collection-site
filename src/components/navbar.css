@@ -7,6 +7,15 @@
   width:200px;
 }
 
+.btn-submit{
+  width: 150px !important;
+}
+
+.border{
+  border: #00ff00;
+  border-width: 3px;
+}
+
 .logo{
   width:150px; 
 }

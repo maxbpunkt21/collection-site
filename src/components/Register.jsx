@@ -40,7 +40,7 @@ function Register() {
             <input 
             className="form-control" 
             type="email" 
-            id="email" 
+            name="email" 
             required 
             />
           </div>
