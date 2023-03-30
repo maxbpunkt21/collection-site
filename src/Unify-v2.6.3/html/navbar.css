@@ -16,6 +16,20 @@
   color:#592bff
 }
 
+.footer-trim{
+  height:150px;
+  width:auto;
+}
+
+.footer-font{
+  font-family: "sofia-pro-soft", sans-serif;
+}
+
+.copyright-footer{
+  font-family: "sofia-pro-soft", sans-serif;
+  font-size: 15px;
+}
+
 .givaway-btn{
   background-color: #592bff;
 }

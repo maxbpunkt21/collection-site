@@ -9,6 +9,7 @@ import TrimLine from "./assets/Trim-Lines/PAPRIKO-CryptoStrains_WA_CP_Trim-Line_
 import NoStrains from "./assets/NoStrains/nostrains.svg";
 import Navbar from "./Navbar";
 
+import Footer from "./Footer";
 
 
 
@@ -35,8 +36,15 @@ const Home = () => {
 
 
   useEffect(() => {
-    searchStrains("");
+    searchStrainsReverse("");
   }, []);
+
+  const searchStrainsReverse = async (title) => {
+    const response = await fetch(`${API_URL}?q=${title}`);
+    const data = await response.json();
+    setStrains(data);
+  };
+
 
   const searchStrains = async (title) => {
     const response = await fetch(`${API_URL}?q=${title}`);
@@ -222,7 +230,7 @@ const Home = () => {
 
           <select 
           class="option color-c5"
-          value={type} 
+          value={thc} 
           onChange={e=> { setThc(e.target.value); searchStrainsByThc(e.target.value); }}>
             <option disabled selected value="">THC</option>
             <option class="options">Low</option>     
@@ -236,7 +244,7 @@ const Home = () => {
 
       {strains?.length > 0 ? (
         <div className="container">
-          {strains.map((strain) => (
+          {strains.reverse().map((strain) => (
             <StrainCard strain={strain} />
           ))}
         </div>
@@ -245,7 +253,11 @@ const Home = () => {
         <img class="nostrains"src={NoStrains} alt="No Strains Found"/>
         </div>
       )}
+      
+      { <Footer /> }
+
     </div>  )
+    
 
 }
 
