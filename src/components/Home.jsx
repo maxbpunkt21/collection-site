@@ -54,14 +54,14 @@ const Home = () => {
   };
 
   const searchStrainsByCategory = async (title) => {
-    const response = await fetch(`${API_URL}?category=${title}`);
+    const response = await fetch(`${API_URL}?category_like=${title}`);
     const data = await response.json();
 
     setStrains(data); 
   };
 
   const searchStrainsByCategory2 = async (title) => {
-    const response = await fetch(`${API_URL}?category2=${title}`);
+    const response = await fetch(`${API_URL}?category2_like=${title}`);
     const data = await response.json();
 
     setStrains(data); 
