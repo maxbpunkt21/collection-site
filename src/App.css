@@ -103,6 +103,7 @@ body {
   font-weight: bold;
   letter-spacing: 0.15rem;
   margin-left: 50px;  
+  margin: auto;
 }
 
 @media screen and (max-width: 600px) {
@@ -120,7 +121,7 @@ body {
 }
 
 .nft_icon{
-  height:15em;
+  height:10em;
 }
 
 @media screen and (max-width: 600px) {
@@ -336,7 +337,7 @@ h1 {
 .search {
   width: 50%;
   margin: 4rem 0 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   margin-top: 0rem;
 
   color:#080808;

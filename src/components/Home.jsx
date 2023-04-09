@@ -109,7 +109,7 @@ const Home = () => {
 
         <div className="row">
           <div className="col-12">
-            <h1 class="nft_collection">NFT - COLLECTION</h1>
+            <h1 class="nft_collection centered">NFT - COLLECTION</h1>
           </div>
           <div className="col-12">
             <img class="trim_line_green_long"src={TrimLineGreenLong} alt="Papriko Logo"/>
