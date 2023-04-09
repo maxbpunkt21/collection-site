@@ -1,31 +1,32 @@
-.navbar{
+.navbar {
   margin: auto;
   margin-bottom: 1rem;
   }
 
-.comming-soon{
+.comming-soon {
   width:200px;
 }
 
-.btn-submit{
+.btn-submit {
   width: 150px !important;
   font-size: 20px;
 }
 
-.givaway-text{
-  color:#592bff
+.givaway-text {
+  color:#592bff;
+  font-family: "sofia-pro-soft", sans-serif;
 }
 
-.footer-trim{
+.footer-trim {
   height:150px;
   width:auto;
 }
 
-.footer-font{
+.footer-font {
   font-family: "sofia-pro-soft", sans-serif;
 }
 
-.copyright-footer{
+.copyright-footer {
   font-family: "sofia-pro-soft", sans-serif;
   font-size: 15px;
 }

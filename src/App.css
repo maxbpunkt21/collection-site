@@ -8,7 +8,10 @@
 .details{
   display: flex;
   width: auto;
+}
 
+.nft_icon{
+  width: 100px;
 }
 .strain-image{
   width: 50%;
@@ -96,9 +99,10 @@ body {
 }
 
 .nft_collection{
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
   letter-spacing: 0.15rem;
+  margin-left: 50px;  
 }
 
 @media screen and (max-width: 600px) {
@@ -109,8 +113,9 @@ body {
   }
 }
 
+
 .trim_line_green_long{
-  width: 350px;
+  width: 250px;
   height: 15px;
 }
 
@@ -332,6 +337,8 @@ h1 {
   width: 50%;
   margin: 4rem 0 2rem;
   margin-bottom: 4rem;
+  margin-top: 0rem;
+
   color:#080808;
 
   display: flex;

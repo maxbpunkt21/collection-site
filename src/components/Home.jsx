@@ -104,7 +104,6 @@ const Home = () => {
             <img class="nft_icon"src={NftIcon} alt="NFT Icon Logo"/>
           </div>
           <div className="col-12">
-            <img class="trim_line_green_long"src={TrimLine} alt="Trim Line"/>
           </div>
         </div>
 
